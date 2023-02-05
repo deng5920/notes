@@ -1,0 +1,16 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.30",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
