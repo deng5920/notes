@@ -3,7 +3,7 @@ export default {
   title: '筱涵笔记',
   titleTemplate: 'VitePress',
   lastUpdated: true,
-  base: '/notes',
+  base: 'notes',
 
   themeConfig: {
     siteTitle: '筱涵学习笔记',
